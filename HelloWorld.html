@@ -7,12 +7,21 @@
 <body>
 <script>
     setTimeout(greeting, 2000)
-
     function greeting() {
         document.write("hello world!")
+        setTimeout(gioithieu, 1000)
+        function gioithieu() {
+            document.write("<br/>Nguyen Thi Thu Hai")
+            setTimeout(namsinh,1000)
+            function namsinh() {
+                document.write("<br/>1997")
+            }
+
+        }
 
     }
 </script>
+
 
 </body>
 </html>
